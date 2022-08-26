@@ -110,4 +110,4 @@ class MonthController {
     }
 }
 
-module.exports = MonthController;
+export default MonthController;

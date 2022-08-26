@@ -1,12 +1,12 @@
 const dayjs = require("dayjs")
-const YearController = require('./years')
-const MonthController = require('./months')
-const WeekController = require('./weeks')
-const DaysController = require('./days')
-const HoursController = require("./hours")
-const MinutesController = require("./minutes")
-const SecondsController = require("./seconds")
 
+import YearController from './years'
+import MonthController from './months'
+import WeekController from './weeks'
+import DaysController from './days'
+import HoursController from "./hours"
+import MinutesController from "./minutes"
+import SecondsController from "./seconds"
 
 function helper(fromDate, toDate, unit, includeSeconds=true) {
     fromDate = dayjs(fromDate)
@@ -168,4 +168,4 @@ function distanceOfTimeInWords(from, to) {
     }
 }
 
-module.exports = distanceOfTimeInWords
+export default distanceOfTimeInWords

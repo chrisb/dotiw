@@ -40,4 +40,4 @@ class MinutesController {
     }
 }
 
-module.exports = MinutesController;
+export default MinutesController;

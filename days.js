@@ -75,4 +75,4 @@ class DaysController {
     }
 }
 
-module.exports = DaysController;
+export default DaysController;

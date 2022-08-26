@@ -95,4 +95,4 @@ class HoursController {
 }
 
 
-module.exports = HoursController
+export default HoursController

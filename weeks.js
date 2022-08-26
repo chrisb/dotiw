@@ -88,4 +88,4 @@ class WeekController {
     }
 }
 
-module.exports = WeekController
+export default WeekController

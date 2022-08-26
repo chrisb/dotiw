@@ -1,4 +1,4 @@
-class YearController {
+export default class YearController {
 
     firstYear(years, months, weeks, days, hours, minutes, seconds) {
         if (months === 0 && weeks === 0 && days === 0 && hours < 24 && minutes <= 29 && seconds <= 59) {
@@ -143,4 +143,5 @@ class YearController {
     }
 }
 
-module.exports = YearController;
+// module.exports = YearController;
+//export default YearController

@@ -34,4 +34,4 @@ class SecondsController {
     }
 }
 
-module.exports = SecondsController;
+export default SecondsController;
